@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node ./server.js",
     "client": "cd forumposts && yarn start",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "server": "nodemon server.js"
   },
   "author": "",
@@ -22,8 +21,5 @@
     "nodemon": "^1.18.4",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
-  },
-  "devDependencies": {
-    "concurrently": "^3.6.1"
   }
 }
